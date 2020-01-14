@@ -1,14 +1,17 @@
 {
-  "name": "pup-test",
+  "name": "puppeteer-lighthouse",
   "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "lighthouse": "^5.6.0",
     "puppeteer": "^2.0.0"
   },
   "scripts": {
-    "start": "node --experimental-modules index.js"
+    "start": "node --experimental-modules index.js",
+    "lighthouse": "sh bin/lighthouse.sh"
   }
 }

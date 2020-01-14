@@ -16,7 +16,7 @@ export const extractDataFromPerformanceMetrics = (metrics, keys) => {
   );
 
   return keys.reduce((acc, key) => {
-    acc[key] = getTimeFromPerformanceMetrics(metrics, key) - navigationStart
+    acc[key] = getTimeFromPerformanceMetrics(metrics, key) - navigationStart;
     return acc;
   }, {});
 };
