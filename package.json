@@ -1,0 +1,10 @@
+{
+  "name": "pup-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
