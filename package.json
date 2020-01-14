@@ -1,10 +1,14 @@
 {
   "name": "pup-test",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node --experimental-modules index.js"
   }
 }
